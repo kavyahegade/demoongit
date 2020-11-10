@@ -14,6 +14,12 @@ public class GitdemoApplication {
 		return "everyone bye";
 		
 	}
+	
+	
+	
+	public String saywelcome() {
+		return "Hello kavya";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitdemoApplication.class, args);
